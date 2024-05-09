@@ -40,6 +40,10 @@
     height: 4px;
   }
 
+  img {
+    width: 100%;
+  }
+
 
   body {
     margin: 0;
@@ -58,4 +62,17 @@
 }
 .footer a:hover {
     text-decoration: underline;
+}
+
+.imge {
+  max-width: 400px;
+}
+.a {
+  width: 100%;
+}
+@media screen and (max-width:480px) {
+  .a {
+   display: block;
+  }
+  
 }
